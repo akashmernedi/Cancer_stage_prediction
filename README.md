@@ -29,7 +29,7 @@ Machine learning plays a crucial role in various industries, and a cancer predic
 ## Deployment of Solution
 
 1. Create an ML model  after preprocessing the dataset and locally run the flask server.
-2. create a policy in which all permissions for the Elastic Container Registry (ECR) are mentioned and attach full access to Amazon ECS. 
+2. Create a policy in which all permissions for the Elastic Container Registry (ECR) are mentioned and attach full access to Amazon ECS. 
 3. Create a private flask server for the Elastic Container Registry repository and use the Windows push command to push the Docker image.
 4. Select the cluster template and create a cluster in Amazon ECS. Then check the status of the created cluster and configure the tasks and container definitions.
 5. Configure the security groups to allow the port and add the container definitions.
